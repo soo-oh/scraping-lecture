@@ -2,10 +2,11 @@
 
 ## Quick start for lecture
 
+First, fork the repo at https://github.com/soooh/scraping-lecture. Then follow these steps.
 
 ```sh
 % cd coding
-% git clone git@github.com:soooh/scraping-lecture.git
+% git clone git@github.com:username/scraping-lecture.git
 % cd scraping-lecture
 % pyenv virtualenv 3.8.5 scraping-lecture-3.8.5
 % pyenv activate scraping-lecture-3.8.5
