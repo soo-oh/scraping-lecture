@@ -2,7 +2,7 @@
 
 ## Quick start for lecture
 
-First, fork the repo at https://github.com/soooh/scraping-lecture. Then follow these steps.
+First, fork the repo at https://github.com/soooh/scraping-lecture. Then follow these steps, replacing _username_ below with your GitHub username.
 
 ```sh
 % cd coding
