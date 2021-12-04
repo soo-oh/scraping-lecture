@@ -1,6 +1,6 @@
 # Scraping with Beautiful Soup
 
-TK.
+I'm editing this because I'd like to get a merge error next time I pull changes.
 
 ## Quick start for lecture
 
