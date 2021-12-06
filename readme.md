@@ -19,27 +19,16 @@ You'll have to un-quarantine chromedriver or you'll get an error when you try to
 
 Then, we need to pull the newest changes from the `scraping-lecture` repo. Go to the GitHub page for your forked repo (it'll be at https://github.com/username/scraping-lecture, with _username_ replaced with your username).
 
-Click on the dropdown button that says "Fetch upstream"
-
-[Screenshot TK]
-
-Then you'll pull from your repo.
+Click on the dropdown button that says "Fetch upstream". Hopefully you can just merge things automatically, then pull from your repo.
 
 ```sh
 % cd coding/scraping-lecture
 % git pull origin main
 ```
 
-Did you get the following merge error? 
+If you have conflicts in the repo, then I'll help you.
 
-[Screenshot TK] 
-
-Here's how to fix it. When you're at the above screen, hit the following keys in succession (not simultaneously):
-- `ESC`
-- `:` (that's a colon; you'll have to also use the SHIFT key)
-- `w`
-- `q`
-- `ENTER`
+### Before starting Jupyter Lab
 
 You'll see that last week's lecture is now in a folder called `pt1`. This week's lecture is in a folder called `pt2`. 
 
@@ -48,12 +37,15 @@ I added a new Python requirement called `selenium` in our [requirements](require
 ```sh
 % pyenv activate scraping-lecture-3.8.5
 (scraping-lecture-3.8.5) % pip install -r requirements-3.8.5.txt
-
 # ...
 # selenium and other related packages will install
 # ...
+```
 
-(scraping-lecture-3.8.5) % jupyter lab
+I'm going to show you a way to reveal hidden files so you can update your .gitignore file in Jupyter. But first you'll have to run Jupyter Lab with some flags:
+
+```sh
+(scraping-lecture-3.8.5) % jupyter lab --ContentsManager.allow_hidden=True
 ```
 
 
